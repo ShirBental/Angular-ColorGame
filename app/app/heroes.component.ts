@@ -12,7 +12,7 @@ import {Player} from './player';
 export class HeroesComponent implements OnInit {
   public players: Player[];
   dataRef: Firebase;
-  
+
   constructor(private _router: Router) {
     this.dataRef = new FirebaseService().dataRef;
     var self = this;

@@ -16,5 +16,5 @@ import {InstructionComponent} from './instruction.component';
   {path: '/instruction', name: 'Instruction', component: InstructionComponent}
 ])
 export class AppComponent {
-  public title = 'Color Game';
+  public title = 'אפקט סטרופ';
 }

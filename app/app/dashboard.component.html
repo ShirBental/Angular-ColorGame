@@ -4,7 +4,7 @@
    <div class="progress">
     <div class="determinate" style="{{progress}}"></div>
   </div>
-  <span class="timer">Timer: {{game.countDown}}</span>
+  <span class="timer">זמן: {{game.countDown}}</span>
   <div class="card-content">
     <div class="row center-align">
      <span class="card-title" [ngStyle]="{'color': game.colorClass}">{{game.colorText}}</span>
@@ -28,15 +28,14 @@
 </div>
 </div>
 <div>
-  Tips: Tell the color of the text rather than meaning of the text.
+  בחר את צבע הטקסט ללא קשר למשמעות המילה
 </div>
 <!-- Modal Trigger -->
 <!-- Modal Structure -->
 <div id="modal1" class="modal bottom-sheet">
   <div class="modal-content">
-    <h4>Game Completed</h4>
-    <p>You are doing awesome, your score is {{totalScore}}. </p>
-    <p>Leave your name for leaderboard</p>
+    <h4>המשחק הסתיים</h4>
+    <p>תודה רבה על השתתפותך. ציונך:  {{totalScore}}. </p>
     <div class="row">
       <div class="input-field col s6">
         <input #name placeholder="" id="first_name" type="text" class="validate">
