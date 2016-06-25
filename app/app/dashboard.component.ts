@@ -16,21 +16,21 @@ export class DashboardComponent implements OnDestroy {
     public game = {}
     const colorLookup = {
         'r': {
-            'text': 'red',
+            'text': 'אדום',
             'color': '#ee6e73'
         },
         'g': {
-            'text': 'green',
+            'text': 'ירוק',
             'color': '#26a69a'
 
         },
         'b': {
-            'text': 'blue',
+            'text': 'כחול',
             'color': '#2196F3'
 
         },
         'o': {
-            'text': 'orange',
+            'text': 'כתום',
             'color': '#ff9800'
         }
     }
